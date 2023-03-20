@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+    line-height: 60px;
+    font-size: 40px;
+}
+
+th {
+    padding-left: 10px;
+    column-width: 600px;
+    text-align: left;
+    border: 3px solid black;
+    font-weight: 600;
+}
+
+td {
+    padding: 10px;
+    column-width: 400px;
+    border: 3px solid black;
+}
+
+.orange {
+    background: orange;
+    color: white;
+}
+
+.blue {
+    background: rgb(81, 96, 234);
+    color: white;
+}
+
+.green {
+    background: rgb(0, 155, 0);
+    color: white;
+}
